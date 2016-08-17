@@ -6,7 +6,7 @@ body {
 }
 table {
     border-spacing: 0;
-    font-family: "Avenir Next", "Calibri Light", sans-serif;/* TODO: check whether we still want to keep Avenir; */
+    font-family: "Avenir Next", "Calibri Light", sans-serif;
     font-size: 10px;
     color: #3E3935;/* almost black */
 }
@@ -110,6 +110,20 @@ a {
     Margin-bottom: 0px;
     font-family: "Avenir Next", "Calibri Light", sans-serif;
 
+}
+
+.list-item {
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+
+.list-item .list-item-text {
+    Margin: 0;
+}
+
+.spacer {
+    height: 5px;
+    background-color: #FFFFFF;
 }
 
 .arrow {
